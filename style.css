@@ -1,0 +1,171 @@
+/*Tüm sayfa için yapılan düzenlemeler*/
+body{
+    font-family: Arial, sans-serif;
+}
+
+/*Navigasyon kısmı */
+.liste {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*Linklerin yan yana sağa doğru dizilmesi için*/
+.link {
+    float: right;
+}
+
+/*Linklerin şekil düzenlemeleri*/
+.a {
+    font-size: 12px;
+    padding: 5px 7px;
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    display: inline-block;
+    margin-left:8px;
+    vertical-align: middle;
+}
+
+.a:hover {
+    text-decoration: underline;
+}
+
+.img {
+    color: #000;
+    vertical-align: middle;
+}
+
+#oturum{
+    background-color: #1a73e8;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 5px;
+    box-shadow: -2px 3px 3px -2px rgba(0,0,0,0.75);
+}
+/*Google logosu düzenleme*/
+.logo {
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 550px;
+}
+
+/*Arama kutusu düzenleme*/
+.searchbox {
+    width: 480px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 425px;
+    border-width: 1px;
+    border-color: lightslategrey;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    border-radius: 35px;
+    background-image: url(images/büyütec.png);
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: 12.5px 10px;
+    display: flex;
+}
+
+.searchbox:hover{
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+ /*Mikrofon ekleme*/
+.mic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    bottom:30px; left: 885px;
+}
+
+ /*Klavye ekleme*/
+.klavye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    bottom:50px; left: 855px;
+    background-color: white;
+}
+
+/*Ara tuşu*/
+#ara {
+    text-align: center;
+    background-color: #f8f9fa;
+    border: 1px solid #f2f2f2 ;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin-top: -20px;
+    margin-left: 500px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+}
+
+ /*Kendimi şanslı hissediyorum tuşu*/
+#sans {
+    background-color: #f8f9fa;
+    border: 1px solid #f2f2f2 ;
+    border-radius: 4px;
+    color: #3c4043;;
+    font-size: 14px;
+    margin-top: -15px;
+    margin-left: 10px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+/*Footer kısmı buradan itibaren*/
+.footer{
+    background-color: #f2f2f2;
+    color: #70757a ;
+    margin-bottom: 0px;
+    margin-top: 225px;
+    height: 85px;
+}
+/*Türkiye kısmı*/
+.Turkıye {
+    border-bottom: 1px solid #dadce0;
+    font-size: 14px;
+    padding: 0.5px 0.5px;
+    margin-left: 15px;
+}
+
+/*En alt satır için yapılan düzenlemeler*/
+.enson {
+    font-size: 13px;
+    list-style: none;
+    padding: 2px 2px;
+}
+
+.abc {
+    float:left ;
+}
+
+.def {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    vertical-align: middle;
+    color: #70757a ;
+}
+
+.def:hover {
+    text-decoration: underline;
+}
